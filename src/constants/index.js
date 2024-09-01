@@ -1,19 +1,12 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
     docker,
     meta,
     starbucks,
@@ -22,8 +15,16 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    designer,
+    backend_dev,
+    intelligence_1,
+    data_analysis,
+    python,
+    postgre,
+    django,
   } from "../assets";
+  
+
   
   export const navLinks = [
     {
@@ -42,20 +43,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: designer,
     },
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: backend_dev,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Data Analyst",
+      icon: data_analysis,
+    },
+    {
+      title: "Machine Learning Engineer",
+      icon: intelligence_1,
     },
   ];
   
@@ -73,8 +74,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "React JS",
@@ -85,28 +86,20 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Django",
+      icon: django,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "PostgreSQL",
+      icon: postgre,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
